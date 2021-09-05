@@ -958,7 +958,7 @@ a.close_btn{display: none;}
 }
 /*author_section*/
 .author_section {
-	padding: 112px 0 80px;
+    padding: 100px 0;
 }
 .author_heading h4{
 	font-size: 28px;

@@ -217,6 +217,7 @@
     .about_counter_section {
         padding: 80px 0;
     }
+    .author_section,
     .about_text_section {
         padding: 70px 0px;
     }
@@ -226,6 +227,12 @@
     .m_b {  
         margin-top: 84px;
     }
+    .author_heading p {
+    width: 100%;
+}
+.author_box_sec {
+    margin-top: 50px;
+}
 }
 @media (max-width: 767px) {
     .pagination {
@@ -333,6 +340,12 @@
         line-height: 45px;
         margin-top: 20px;
     }
+    .about_text_s p:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    .author_text {
+        padding: 25px 10px;
+    }
 }
 @media (max-width: 575px) {
     .avtar_text:after,.social_icons:after{display: none;}
@@ -381,7 +394,7 @@
         max-width: 48px;
         max-height: 48px;
     }
-    .about_text_section,.about_counter_section {
+    .author_section,.about_text_section,.about_counter_section {
         padding: 50px 0;
     }
     .about_text_f h4 {
