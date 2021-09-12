@@ -1041,3 +1041,35 @@ a.close_btn{display: none;}
 	min-height: 400px;
 	background: transparent;
 }
+.featured_section {
+	padding: 60px 0;
+}
+/*Category Page CSS*/
+.category_section {
+	padding: 126px 15px;
+	background-image: url(../image/pexels-photo-736166-1500x635.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.category_section:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.category_text h2 {
+	font-size: 42px;
+	font-weight: 700;
+	position: relative;
+	z-index: 1;
+}
+.category_text p {
+	font-size: 20px;
+	position: relative;
+	z-index: 1;
+}
