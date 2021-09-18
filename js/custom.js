@@ -73,10 +73,12 @@ $(document).ready(function(){
 		if(top >= header_height){
 			$('header').addClass('scrollnav');
 			$('.mt').addClass('m_b');
+			$('section').eq(0).addClass('m_b').end();
 		}
 		else{
 			$('header').removeClass('scrollnav');
 			$('.mt').removeClass('m_b');
+			$('section').eq(0).removeClass('m_b').end();
 		}
 	});
 
@@ -105,4 +107,5 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('html, body').animate({scrollTop:0}, '300');
 	});
+
 });
