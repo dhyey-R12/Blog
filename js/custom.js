@@ -72,12 +72,10 @@ $(document).ready(function(){
 		console.log(top)
 		if(top >= header_height){
 			$('header').addClass('scrollnav');
-			$('.mt').addClass('m_b');
 			$('section').eq(0).addClass('m_b').end();
 		}
 		else{
 			$('header').removeClass('scrollnav');
-			$('.mt').removeClass('m_b');
 			$('section').eq(0).removeClass('m_b').end();
 		}
 	});
