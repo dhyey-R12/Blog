@@ -28,6 +28,38 @@
     .about_counter_section {
         padding: 100px 0;
     }
+    .about_heading h3 {
+        font-size: 38px;
+        margin-bottom: 6px!important;
+    }
+    .about_heading p {
+        font-size: 20px;
+    }
+    .contact_details_sec {
+        padding: 50px;
+    }
+    .contact_form_section {
+        padding: 50px 0;
+    }
+    .contact_form_heading h3 {
+        font-size: 30px ;
+    }
+    .contact_form_heading p {
+        font-size: 18px ;
+    }
+    .contact_form_heading {
+        padding-bottom: 30px;
+    }
+    .contact_form_sec p {
+        width: 81%;
+        margin: 0 auto 40px;
+    }
+    .contact_form input, .contact_form textarea {
+        padding: 15px !important;
+    }
+    .map_icon {
+        padding: 45px 0;
+    }
 }
 @media (max-width: 991px) {
     .nav-social-icon-top,.header-center-logo {
@@ -38,7 +70,7 @@
     }
     header.scrollnav,
     header {
-        padding: 30px 16px !important;
+        padding: 20px 16px !important;
     }
     .nav-social-icon {justify-content: space-between !important;}
     header.scrollnav .nav-search-icon-top {
@@ -112,11 +144,13 @@
         flex: 0 0 100% !important;
         max-width: 100% !important;
         padding-left: 15px !important;
+        visibility: hidden;
     }
     .navbar_links.open {
         z-index: 2;
         opacity: 1;
         pointer-events: visible;
+        visibility: visible;
     }
     .navbar_links li a.nav_links {
         margin: 14px 0;
@@ -187,7 +221,7 @@
         padding: 26px 0;
     }
     .footer_text h5 {
-        margin-bottom: 24px;
+        margin-bottom: 10px;
     }
     .popular_post_image {
         flex: 0 0 66px;
@@ -243,6 +277,52 @@
     }
     .category_text h2 {
         font-size: 36px;
+    }
+    .contact_details_section {
+        padding: 40px 0;
+    }
+    .contact_heading {
+        padding-bottom: 35px;
+    }
+    .contact_details_sec {
+        padding: 35px;
+    }
+    .contact_details_content i {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .contact_details_content h5 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about_heading h3 {
+        font-size: 30px;
+        margin-bottom: 4px!important;
+    }
+    .about_heading p {
+        font-size: 18px;
+    }
+    .contact_form_section {
+        padding: 40px 0;
+    }
+    .contact_form_heading h3 {
+        font-size: 28px;
+    }
+    .contact_form_heading p {
+        font-size: 16px;
+    }
+    .contact_form_sec p {
+        width: 100%;
+        margin: 0 auto 25px;
+    }
+    .contact_form_heading {
+        padding-bottom: 20px;
+    }
+    .contact_details_content p {
+        margin-bottom: 10px;
+    }
+    .map_box_sec iframe {
+        height: 375 px;
     }
 }
 @media (max-width: 767px) {
@@ -329,12 +409,6 @@
         margin-top: 40px;
         margin-bottom: 50px;
     }
-    .about_heading h3 {
-        font-size: 38px;
-    }
-    .about_heading p {
-        font-size: 20px;
-    }
     .about_section:after {
         height: 530px;
     }
@@ -359,6 +433,39 @@
     }
     .category_section {
         padding: 95px 15px;
+    }
+    .contact_details_sec {
+        padding: 20px;
+    }
+    .contact_details_content h5 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .contact_form_section,
+    .contact_details_section {
+        padding: 30px 0;
+    }
+    .contact_form input, .contact_form textarea {
+        padding: 10px 15px !important;
+        margin-bottom: 15px;
+    }
+    .about_heading h3 {
+        font-size: 28px;
+    }
+    .contact_form_heading h3 {
+        font-size: 26px;
+    }
+    .map_icon i{
+        font-size: 20px;
+    }
+    .map_icon {
+        padding: 30px 0;
+    }
+    .map_box_sec iframe {
+        height: 300px;
+    }
+    .contact_heading {
+        padding-bottom: 20px;
     }
 }
 @media (max-width: 575px) {
@@ -392,7 +499,8 @@
         font-size: 20px;
     }
     .about_heading h3 {
-        font-size: 30px;
+        font-size: 26px;
+        margin-bottom: 0px !important;
     }
     .about_heading p {
         font-size: 18px;
@@ -428,5 +536,21 @@
     }
     .category_text h2 {
         font-size: 30px;
+    }
+    .contact_details_sec {
+        padding: 15px;
+    }
+    .contact_form_heading h3 {
+        font-size: 24px;
+    }
+    .contact_form_heading p {
+        font-size: 14px;
+    }
+    .contact_form_sec p {
+        font-size: 14px;
+        margin: 0 auto 20px;
+    }
+    .contact_form_heading {
+        padding-bottom: 10px;
     }
 }
